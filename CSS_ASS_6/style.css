@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+html,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px;
+    background-color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.login {
+    color: black;
+}
+.signup {
+    background-color: #007bff;
+    color: white;
+}
+ .hero {
+    padding: 80px 20px;
+    background: linear-gradient(to right, #fafafa, #f8f9fa);
+}
+.hero h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.hero p{
+    font-size: 1.2rem;
+    padding-top: 15px;
+    text-align: center;
+}
+.blue-text {
+    color: #007bff;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 10px;
+}
+.learn-more {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 16px;
+}
+.illustration {
+    margin-top: 40px;
+    padding: 40px;
+    background: linear-gradient(to right, rgb(235, 239, 245), white);
+    border-radius: 12px;
+    border: 1px solid rgb(139, 139, 241);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.illustration img {
+    margin-bottom: 10px;
+    width: 50%;
+}
+.illustration p {
+    font-size: 16px;
+    word-spacing: 3px;
+}
+
+.hero {
+    background: #f8f9fc;
+    padding: 40px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.hero-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 200px;
+    background-color: rgb(252, 248, 248);
+}
+.hero-two h1{
+    font-size: 2em;
+    font-weight: bold;
+}
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 1.2rem;
+    padding-right: 10px;
+    margin-right: 50px;
+    font-size: 1.2em;
+}
+
+.why-choose {
+    padding: 20px;
+    display: flex;
+    background: rgb(255, 255, 255);
+    width: 100%;
+     gap: 50px;
+}
+.choose{
+    width: 40%;
+    padding: 20px;
+}
+
+.choose p{
+    padding: 20px;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    background-color: #fff;
+    /* flex: 0 2 10px;  */
+   
+}
+
+.feature {
+    flex: 0 0 50%;
+    height: 50%;
+    width: 180px;
+    background: rgb(252, 251, 251);
+    padding: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #3284FF21;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 1px;
+    margin-bottom: 10px;
+}
+h2.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+
+.subtitle {
+    font-size: 17px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-card  ul li {
+    font-size: 14px;
+    margin: 5px 0;
+    padding: 5px;
+}
+.pricing-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.featured {
+    background-color: #0b1b33;
+    color: white;
+    transform: scale(1.1);
+}
+.featured:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.price-button {
+    margin-top: 35px;
+    padding: 30px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+ button {
+    margin-top: 35px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.outline {
+    background: white;
+    color: #007bff;
+    border: 2px solid #007bff;
+}
+.outline:hover {
+    background: #4291e6;
+    color: white;
+}
+.primary {
+    background: #007bff;
+    color: white;
+}
+.primary:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+.input-container{
+    background: linear-gradient(135deg, #010d2e, #065eb6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* margin: 0; */
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+.input-field, .dropdown {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #0056b3;
+    outline: none;
+    color: #0056b3;
+    border-radius: 5px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+.trim-button {
+    width: 100%;
+    padding: 10px;
+    background: #0056ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.trim-button:hover {
+    background: #0046d4;
+}
+.terms {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #666;
+}
+.terms span {
+    color: #0056ff;
+    cursor: pointer;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.faq {
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.question {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.answer {
+    display: none;
+    padding: 10px;
+    color: #555;
+    background-color: #fff;
+}
+.faq:hover .answer {
+    display: block;
+}
+.plus-sign {
+    font-weight: bold;
+    font-size: 18px;
+}
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.revolution-container{
+    background: linear-gradient(135deg, #1e3c72, #2a69ac);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px; 
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #ffffff;
+    padding: 40px 80px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footer .social-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+    display: inline-flex;
+    color: #101111;
+}
+
+
+.footer .column {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px;
+}
+
+.footer h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #151616;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+.legal {
+    text-align: right;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    color: #242222;
+}
+

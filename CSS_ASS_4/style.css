@@ -1,0 +1,148 @@
+html,*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    background:  #f4f8f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2rem;
+    padding: 20px;
+    max-width: 900px;
+    width: 90%;
+}
+
+/* Info Section */
+.info-section {
+    flex: 1;
+    margin: 30px;
+    padding: 20px;
+    
+}
+
+.icon {
+    margin-top: -15px;
+  
+}
+
+.info-section h2 {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    color: #333;
+}
+
+.info-section p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Form Section */
+.form-section {
+    padding: 20px;
+    background: #fff;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-group {
+    border: none;
+    margin-bottom: 18px;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+input, select {
+    width: 100%;
+    margin: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+   outline: none;
+}
+#activity{
+    width: 330%;
+}
+ #password{
+    width: 190%;
+ }
+button {
+    background: #28c7b7;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 90%;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #1aa69a;
+}
+
+.terms {
+    font-size: 0.8rem;
+    color: #666;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.terms a {
+    color: #28c7b7;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width:  768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-section {
+        max-width: 100%;
+        width: 100%;
+    }
+    fieldset{
+        flex-direction: column;
+        padding: 10px;
+    }
+    #activity{
+        width: 100%;
+    }
+     #password{
+        width: 100%;
+     }
+}
